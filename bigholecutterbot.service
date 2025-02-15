@@ -1,0 +1,14 @@
+[Unit]
+Description=Big Hole Cutter Bot Service
+After=network.target
+
+[Service]
+Type=idle
+Restart=always
+RestartSec=3
+User=user
+WorkingDirectory=/home/user/bigholecutterbot/
+ExecStart=python3 main.py
+
+[Install]
+WantedBy=multi-user.target
