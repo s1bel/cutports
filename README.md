@@ -4,12 +4,18 @@
 1) cutports.py - for local python execution
 2) main.py, config.py, bigholecutterbot.service - version adapted for telegram bot 
 
-Add packages to use telebot:
+## Add packages to use telebot:
 pip install pyTelegramBotAPI
 
-install as service for Debian 12:
+
+## Install as service for Debian 12:
+
 edit and save /lib/systemd/system/bigholecutterbot.service
+
 systemctl daemon-reload
+
 systemctl enable bigholecutterbot
+
 systemctl start bigholecutterbot
+
 systemctl status bigholecutterbot
