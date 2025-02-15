@@ -2,7 +2,7 @@
 
 2 versions:
 1) cutports.py - for local python execution
-2) main.py, config.py - version adapted for telegram bot 
+2) main.py, config.py, bigholecutterbot.service - version adapted for telegram bot 
 
 Add packages to use telebot:
 pip install pyTelegramBotAPI
